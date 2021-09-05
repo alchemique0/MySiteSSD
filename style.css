@@ -70,7 +70,7 @@ li {
   margin-top: 90px;
   width: 900px;
   height: 400px;
-  background-image: url("/11.jpg");
+  background-image: url("./11.jpg");
   background-size: 100%;
 }
 
