@@ -7,20 +7,71 @@
     <title>Digital Star</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./slider.css">
+    <link rel="stylesheet" href="./navbutton.css">
+    <link rel="stylesheet" href="./button.css">
+    <link rel="stylesheet" href="./accordeon.css">
+    <link rel="stylesheet" href="./switchBtn.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
 
 </head>
 <body>
     <header>
         <div class="logo">
-          <a href=""><img src="./logo.png" alt=""></a>  
+          <a  href=""><img class="logo1" src="./logo.png" alt=""></a>  
+         
         </div>
         
         <div class="navbar">
             <ul class="navb">
-                <li class="navba"   ><a class="link1" href="">БЛОГ</a>     </li>
-                <li class="navba" ><a class="link1" href="">КОРЗИНА</a>  </li>
-                <li class="navba" ><a class="link1" href="">КАТАЛОГ</a>  </li>
+                <li class="navba"   >
+                  <a class="glitch-btn" href="#" target="_blank">
+                    <div class="text">БЛОГ</div>
+                    <div class="mask">
+                      <span>БЛОГ</span>
+                      </div>
+                   </div></a>  
+                </li>
+                <li class="navba" >
+                  <a class="glitch-btn" href="#" target="_blank">
+                    <div class="text">КОРЗИНА</div>
+                    <div class="mask">
+                      <span>КОНЗИНА</span>
+                      </div>
+                   </div></a>
+                </li>
+                <li class="navba" >      <a class="glitch-btn" href="#" target="_blank">
+                  <div class="text">КАТАЛОГ</div>
+                  <div class="mask">
+                    <span>КАТАЛОГ</span>
+                    </div>
+                 </div></a>  </li>
+
+                <li class="navba" >
+                  <a class="glitch-btn" href="#" target="_blank">
+                    <div class="text">ABOUT ME</div>
+                    <div class="mask">
+                      <span>ABOUT ME</span>
+                      </div>
+                   </div></a>
+                </li> 
+                
+                <li class="navba" >
+                  <a class="glitch-btn1" href="#" target="_blank">
+                    <div class="text">ABOUT ME<span class="hidden">&nbsp></span></div>
+                    
+                    <div class="mask mask1">
+                      <span>ABOUT ME</span>
+                      
+                    </div>
+                    <div class="mask mask2">
+                      <span>ABOUT ME</span>
+                    </div>
+                    <div class="mask mask3">
+                      <span>ABOUT ME</span>
+                    </div>
+                   </div></a>  
+                </li>
+                
             </ul>
         </div>
     </header>
@@ -108,9 +159,267 @@
 <!-- Карусель Конец -->
 </div>
 
-    <footer>
-        <div class="footerContent"></div>
-    </footer>
+  <!-- Кнопка -->
+  <button class="bubbly-button">Click me!</button>
+
+  <footer>
+    <div class="footerContent"></div>
+</footer>
+
+    <!-- Аккордеон Вертикальный начало -->
+    <div class="custom-accordion">
+      <div class="item">
+          <div class="icon">1</div>
+          <div class="title">
+              <div class="text">Lorem ipsum</div>
+          </div>
+          <div class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi dolor repellendus quidem! Alias voluptatum enim eius id illum accusamus ut amet rerum delectus</div>
+      </div>
+      <div class="item">
+          <div class="icon">2</div>
+          <div class="title">
+              <div class="text">Ipsam hic quia</div>
+          </div>
+          <div class="content">Porro explicabo ad molestiae incidunt, corporis doloribus, numquam assumenda molestias deserunt provident veritatis</div>
+      </div>
+      <div class="item">
+          <div class="icon">3</div>
+          <div class="title">
+              <div class="text">In impedit</div>
+          </div>
+          <div class="content">Repudiandae non ea nam sint accusamus provident aut nobis excepturi, possimus animi corrupti debitis porro</div>
+      </div>
+      <div class="item">
+          <div class="icon">4</div>
+          <div class="title">
+              <div class="text">Consequatur</div>
+          </div>
+          <div class="content">Cum repellendus, aspernatur error eos autem porro asperiores praesentium quae odit est fugiat suscipit commodi architecto doloribus</div>
+      </div>
+      <div class="item">
+          <div class="icon">5</div>
+          <div class="title">
+              <div class="text">Reiciendis</div>
+          </div>
+          <div class="content">Laudantium vero ab atque natus et similique? Perferendis unde a voluptates voluptas tempora quaerat</div>
+      </div>
+      <div class="item">
+          <div class="icon">6</div>
+          <div class="title">
+              <div class="text">Iure blanditiis</div>
+          </div>
+          <div class="content">Officiis ipsa suscipit, quidem odio, ratione sapiente consectetur nemo voluptatum maxime</div>
+      </div>
+      <div class="item">
+          <div class="icon">7</div>
+          <div class="title">Nemo pariatur</div>
+          <div class="content">
+              <!-- <div class="heart-icon">&hearts;</div> -->
+          </div>
+      </div>
+  </div>
+  <!-- Аккордеон Вертикальный конец -->
+
+
+
+<!-- Кнопочки -->
+<div id="app-cover">
+  <div class="row">
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button r" id="button-1">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs"></div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button r" id="button-2">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs"></div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button r" id="button-3">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs"></div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button r" id="button-4">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs"></div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button r" id="button-5">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs"><span></span></div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button r" id="button-6">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button r" id="button-7">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+            <span></span>
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button r" id="button-8">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+            <span></span>
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button r" id="button-9">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+            <span></span>
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button b2" id="button-10">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+            <span>YES</span>
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button b2" id="button-11">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+            <span></span>
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button b2" id="button-12">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+            <span></span>
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button b2" id="button-13">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+            <span></span>
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button b2" id="button-14">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+            <span></span>
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button b2" id="button-15">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs"></div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button b2" id="button-16">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs"></div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button b2" id="button-17">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+            <span></span>
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+    <div class="toggle-button-cover">
+      <div class="button-cover">
+        <div class="button b2" id="button-18">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs">
+            <span></span>
+          </div>
+          <div class="layer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script src="./main.js" ></script>
 <script src="./slider.js"></script>

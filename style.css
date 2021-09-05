@@ -1,14 +1,60 @@
+* {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Helvetica", "Arial", sans-serif;
+  text-align: center;
+  background-color: #100e17c5;
+}
+
+.logo1:hover {
+  background: url(http://изо2.jpg) no-repeat 50% 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #575050;
+}
+
 header {
   display: flex;
   justify-content: space-evenly;
-  background-color: rgb(110, 106, 106);
+  background-color: #17141d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* html {
+  line-height: 1.5;
+} */
+
+.navb {
+  padding-left: 180px;
 }
 
 .navba {
-  float: left;
-  padding: 20px;
-  text-decoration: none;
+  /* float: left;
+  text-decoration: none; */
   list-style-type: none;
+  /* padding: 0px;
+  margin: 0px; */
+}
+
+li {
+  padding: 0px;
+  margin: 0px;
 }
 
 .logo {
@@ -24,7 +70,7 @@ header {
   margin-top: 90px;
   width: 900px;
   height: 400px;
-  background-image: url("./11.jpg");
+  background-image: url("/11.jpg");
   background-size: 100%;
 }
 
@@ -35,8 +81,9 @@ footer {
 }
 
 .footerContent {
-  background-image: url("/11.jpg");
-  width: 300px;
+  background-color: rgb(6, 80, 55);
+  width: 100%;
+  max-width: 1200px;
   height: 300px;
 }
 
@@ -46,11 +93,11 @@ footer {
   size: 2em;
 }
 
-/* Карусель начало */
-body {
-  background-color: #100e17;
-  font-family: "Open Sans", sans-serif;
+footer {
+  margin: 50px;
 }
+
+/* Карусель начало */
 
 .secondContent {
   display: flex;
